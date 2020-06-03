@@ -2,9 +2,11 @@
 Server client based multi user chat application in Java
 Idea here is Server-Client
 # To run on your machine download or clone it.
-Step1 Since it is java project build and run it on your machine
-Step2 Run server java main class
-Step3 When server is up and running run client
+Step 1 Since it is java project build and run it on your machine
+
+Step 2 Run server java main class
+
+Step 3 When server is up and running run client
 # Functionalities provided by this project
 1. User ---> server
     *login/logoff
@@ -16,9 +18,9 @@ Step3 When server is up and running run client
     *brodcast message / group message
 
 Commands
-    login <user> <password>
-    logoff
-    message <user> messageBody
+    login <user> <password>.
+    logoff.
+    message <user> messageBody.
         example: guest:"message John hello"      ---- sender
                  john: "Message From guest hello"-----recieved
     join #topic
