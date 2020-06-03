@@ -1,0 +1,19 @@
+1. User ---> server
+    *login/logoff
+    *status
+2. Server ----> User
+    *online / offline
+3. User  ----> User
+    *direct message
+    *brodcast message / group message
+
+commands
+    login <user> <password>
+    logoff
+    message <user> messageBody
+        example: guest:"message John hello"      ---- sender
+                 john: "Message From guest hello"-----recieved
+    join #topic
+        example: sender: "message #topic messageBody"
+                 reciever: "Message #topic: from <sender> messagebody"
+    leave #topic
