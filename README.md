@@ -18,12 +18,22 @@ Step 3 When server is up and running run client
     *brodcast message / group message
 
 Commands
-    login <user> <password>.
-    logoff.
+
+    login <user> <password>
+   
+    logoff
+    
     message <user> messageBody.
+    
         example: guest:"message John hello"      ---- sender
+        
                  john: "Message From guest hello"-----recieved
+                 
     join #topic
+    
         example: sender: "message #topic messageBody"
+        
                  reciever: "Message #topic: from <sender> messagebody"
+                 
     leave #topic
+    
